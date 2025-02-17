@@ -1,4 +1,4 @@
-# Genetic_Chemical_Perturbations
+# No Significant Correlation Found between Genetic and Chemical Perturbations in Transcriptome Profiling
 # Transcriptome expression profiles
 ## GSE92472_dataset
 Data Source: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE92742<br>
@@ -13,4 +13,6 @@ Data information file: siginfo_beta.txt<br>
 # Installation guide:
 ## Insturctions
 conda install cmapPy
+## CUDA 11.6
+conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.6 -c pytorch -c conda-forge
 
